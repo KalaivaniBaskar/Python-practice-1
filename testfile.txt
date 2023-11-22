@@ -1,0 +1,4 @@
+THIS is my test file line 1 
+line 2 test file 
+line 3 test file
+appending 4th line in file
