@@ -26,3 +26,5 @@
 # tuple is immutable - does not allow item assignment
 # tupnew[1] = "two"
 # TypeError: 'tuple' object does not support item assignment
+
+#tuples can be unpacked == destructured
