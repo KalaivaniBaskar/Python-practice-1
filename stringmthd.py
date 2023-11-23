@@ -25,4 +25,15 @@ s ='hello'
 # Method 1:
 print(s[-1])
 # Method 2:
-print(s[len(s)-1])
+print(s[len(s)-1]) 
+
+# string 
+def myfunc(word):
+    res = ""
+    for idx,val in enumerate(word):
+        if idx % 2 == 0: 
+            res = res + val.lower()
+        else:
+            res = res + val.upper()
+    return res
+print(myfunc('Anthropomorphism') )
